@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   new_arr = []
   dwarves.each_with_index  do |dwarf, i | 
-    new_arr.push(#{i + 1}, )
+    new_arr.push("#{i + 1}. #{dwarf}")
   end
 end
 
