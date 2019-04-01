@@ -17,8 +17,8 @@ def long_planeteer_calls(calls)
     if call.length <= 4
       return false
     end
+    return true
   end
-  return true
 end
 
 def find_the_cheese(arr)
