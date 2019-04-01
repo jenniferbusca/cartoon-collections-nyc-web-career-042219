@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(calls)
   calls.collect do | call |
-    puts "#{call}[0].upcase + #{call}[1..-1].downcase + !"
+    new_arr.push(call.[0].upcase + call[1..-1].downcase,"!")
 end
 
 def long_planeteer_calls# code an argument here
