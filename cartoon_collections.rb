@@ -26,7 +26,7 @@ def find_the_cheese(arr)
   arr.each do | ele|
     if cheese_types.include?(ele)
       return ele
-    else return nil
     end
   end
+  return nil
 end
