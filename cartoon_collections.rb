@@ -27,5 +27,6 @@ def find_the_cheese(arr)
     if ele.include?(cheese_types)
       return ele
     else return nil
+    end
   end
 end
