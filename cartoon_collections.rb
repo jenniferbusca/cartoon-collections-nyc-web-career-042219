@@ -5,7 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  new_arr = calls.map do | call |
+  new_arr = []
+  calls.collect do | call |
     new_arr.push(call[0].upcase + call[1..-1].downcase + "!")
   end
   return new_arr
